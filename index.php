@@ -257,7 +257,8 @@ echo '<br>';
 
 ?>
 </div>
-<?php include 'bar.php';?>
-
+<div class="bar">
+	<p>Skyblock Ledger by DutchYannick | Hypixel API<p>
+</p>
 </body>
 </html>
