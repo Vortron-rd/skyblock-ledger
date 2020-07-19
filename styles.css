@@ -1,0 +1,86 @@
+a.add {
+	color: green;
+}
+
+a.remove {
+	color: red;
+}
+
+body, a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+
+body {
+	background-image: url("background.png");
+}
+p.error {
+	background-color: #ed4c4c;
+	padding: .5vw;
+}
+div.search {
+	background-color: rgba(0, 0, 0, 75%);
+	border-radius: 1vh;
+	margin: auto;
+	padding: 25vh;
+	margin-top: 5%;
+	display: table;
+	float: center;
+	margin-bottom: 4vh;
+}
+
+input.input {
+	background-color: black;
+	border: solid white;
+	padding: 1vw;
+	border-radius: 2vw;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 3vh;
+}
+h1.h {
+	background-color: #ed4c4c;
+	margin-right: -.5vw;
+	margin-left: -.5vw;
+	padding: 2vw;
+}
+
+div.bg {
+		background-color: #2e2e2e;
+		margin-right: -.5vw;
+		margin-top: -3vh;
+		margin-left: -.5vw;
+		padding: 2vw;
+		margin-bottom: -.5vw;
+}
+
+input.submit {
+	background-color: black;
+	border: solid white;
+	padding: 1vw;
+	border-radius: 2vw;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 3vh;
+}
+input.submit:hover {
+	cursor: pointer;
+}
+
+h1.s {
+	color: white;
+}
+ a.a:visited {
+ 	color: white;
+ }
+
+ div.bar {
+ 	background-color: rgba(0, 0, 0, 75%);
+ 	margin-right: -.5vw;
+ 	margin-left: -.5vw;
+ 	margin-top: 1.5vh;
+ 	padding: 1vw;
+ 	float: center;
+ }
