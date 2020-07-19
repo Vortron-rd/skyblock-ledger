@@ -67,8 +67,10 @@ if (!empty($array[3])) {
 	echo ("<a href=index.php?profile_id=$profile3 class=a>" .$profile3_name);
 	echo "<br>";
 }
-?></div><?php
-include 'bar.php';
+?></div><div class="bar">
+	<p>Skyblock Ledger by DutchYannick | Hypixel API<p>
+</p><?php
+
 
 
 
