@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 		$curl = curl_init();
 	curl_setopt_array($curl, array(
-    CURLOPT_URL => "https://api.hypixel.net/player?key=3e11b120-a63e-4162-9cb9-765439694f47&name=$name",
+    CURLOPT_URL => "https://api.hypixel.net/player?key=your_key&name=$name",
     CURLOPT_RETURNTRANSFER => true,
  	CURLOPT_TIMEOUT => 30,
  	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
