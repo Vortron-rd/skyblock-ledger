@@ -4,7 +4,7 @@
 
 		$curl = curl_init();
 	curl_setopt_array($curl, array(
-    CURLOPT_URL => "https://api.hypixel.net/skyblock/profile?key=3e11b120-a63e-4162-9cb9-765439694f47&profile=${profile_id}",
+    CURLOPT_URL => "https://api.hypixel.net/skyblock/profile?key=your_key&profile=${profile_id}",
     CURLOPT_RETURNTRANSFER => true,
  	CURLOPT_TIMEOUT => 30,
  	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
